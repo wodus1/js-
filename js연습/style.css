@@ -1,0 +1,148 @@
+body{
+    padding-top:300px;
+}
+.hidden{
+    display:none;
+}
+
+#bgImage{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height: 1300px;
+    z-index:-5;
+    filter: brightness(75%);
+    opacity: 0.7;
+}
+
+#login-form{
+    text-align:center;
+    color:white;
+    margin:0 auto;
+}
+#login-form input:first-child{
+    text-align: center;
+    color:white;
+    font-size:1.3rem;
+    padding: 10px;
+    width: 240px;
+    background-color: rgba(255,255,255,0.2);
+    border:none;
+}
+#login-form input:first-child:hover{
+    background-color: rgba(255,255,255,0.4);
+}   
+
+#login-form input:first-child:focus{
+    outline:none;
+    border-bottom: 1px solid white;
+    background-color:rgba(0,0,0,0);
+}
+#login-form input:nth-child(2){
+    margin-left:20px;
+    width:100px;
+    height:40px;
+    border-radius: 30px;
+    border:none;
+    background-color:rgba(255,255,255,0.6);
+    color: rgb(80,80,80);
+    font-size:20px;
+    font-weight: 600;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+    outline: none;
+    cursor: pointer;
+    transition: all, 0.4s;
+}
+#login-form input:nth-child(2):hover{
+    background-color:rgba(255,255,255,0.8)
+}
+#login-form input:nth-child(2):active{
+    background-color:darkgray;
+    color:white;
+    outline: none;
+}
+
+#clock{
+    text-align: center;
+    height:260px;
+    font-size:135px;
+    margin:25px 0 15px 0;
+    color:white;
+}
+#greeting{
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size:48px;
+}
+#todo-form{
+    text-align: center;
+    margin-top:0px;
+}
+#todo-form input{
+    text-align: center;
+    color:white;
+    font-size:1rem;
+    width: 540px;
+    height:40px;
+    background-color: rgba(255,255,255,0.1);
+    font-weight: 500;
+    border:none;
+    margin-bottom:20px;
+    transition: all, 0.4s;
+}
+#todo-form input:hover{
+    background-color: rgba(255,255,255,0.4);
+}
+
+#todo-form input:focus{
+    outline:none;
+    border-bottom: 1px solid white;
+    background-color:rgba(0,0,0,0);
+}
+#todo-list{
+    text-align: center;
+}
+#todo-list li{
+    list-style: none;
+    color:rgba(250,250,250,0.8);
+    font-size:1.2rem;
+    width:540px;
+    margin: 7px auto;
+}
+#todo-list li:hover{
+    color:rgb(255, 166, 0);
+}
+#todo-list button{
+    margin-left: 15px;
+    background-color:rgba(255,255,255,0);
+    border:2px solid rgba(0,0,0,0.4);
+    color:white;
+    font-weight: 500;
+    width:70px;
+    height:30px;
+    font-size:1.2rem;
+}
+#todo-list button:hover{
+    cursor: pointer;
+}
+#quote{
+    bottom:20px;
+    text-align: center;
+    font-size:1.2rem;
+    font-weight: 200;
+    color:rgba(255,255,255,0.8);
+}
+#weather{
+    position:fixed;
+    top:20px;
+    right:36px;
+    color:white;
+    font-size:1.1rem;
+    font-weight: 700;
+}
+#weather:hover{
+    color:rgb(255, 166, 0);
+}
